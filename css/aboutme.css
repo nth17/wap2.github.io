@@ -30,7 +30,7 @@ ol {
     flex-direction: column-reverse;
 }
 p::first-letter{
-    font-size: 25px;
+    font-size: 150%;
 }
 p{
     transform: rotateX(180deg);
