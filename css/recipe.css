@@ -1,0 +1,79 @@
+#title{
+    align-content: center;
+    alignment: center;
+    background-color: rgba(142,129,126,0.62);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+pre{
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: left;
+}
+#ingridients{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(142,129,126,0.62);;
+    height: 35px;
+}
+#UserComments{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(142,129,126,0.62);;
+    height: 35px;
+}
+#Directions{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(142,129,126,0.62);;
+    height: 35px;
+}
+#LINKS{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgba(142,129,126,0.62);;
+    height: 35px;
+}
+.links{
+    color: #bcff5e;
+    text-decoration-line: underline;
+}
+.title{
+    color: #bcff5e;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.ingridients{
+    color: #bcff5e;
+    text-decoration-line: underline;
+}
+.directions{
+    color: #bcff5e;
+    text-decoration-line: underline;
+}
+.usercomments{
+    color: #bcff5e;
+    text-decoration-line: underline;
+}
+.usercomment{
+    background-color: rgba(255,209,104,0.62);
+    width: 1500px;
+    margin-left: 5%;
+    padding-left: 5%;
+
+}
+a{
+    color: #bcff5e;
+}
+pre{
+    margin-left: 0%;
+    padding-left: 0%;
+    white-space: pre-line;
+}
