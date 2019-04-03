@@ -1,0 +1,37 @@
+body{
+    background-color: dimgray;
+    color: azure;
+}
+h1{
+    color: #a6acff;
+    text-align: center;
+}
+h2{
+    color: #a6acff;
+}
+a{
+    color: darkred;
+    font-family: "Times New Roman", Times, Serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration-color: darkred;
+    text-decoration-line: underline;
+}
+em{
+    color: #fff965;
+    font-family: "Courier 10 Pitch", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+p::first-letter{
+    font-size: 25px;
+}
+p{
+    transform: rotateX(180deg);
+}
