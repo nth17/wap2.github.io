@@ -1,0 +1,123 @@
+body{
+    background-image: url("../images/background.png");
+    font-size: 8pt;
+    font-family: Tahoma;
+
+}
+
+#imagebanner{
+    background-image: url("../images/bannerbg.png");
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+}
+h1{
+    float: top;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+}
+#overallcontentarea{
+    position: relative;
+    width: 800px;
+    height: auto;
+    border-color: gray;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+}
+#criticsoverview{
+    float: left;
+    width: 550px;
+}
+#filmoverviewbody{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 800px;
+    white-space: normal;
+    list-style-type: none;
+    margin: 2%;
+}
+p.comments
+{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 47%;
+    margin: 2%;
+    padding: 8px;
+    text-wrap: revert;
+    background-color: #E8DC9B;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: bold;
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+p{
+    box-sizing: border-box;
+    width: 47%;
+}
+.criticsimages{
+    float: left;
+    margin-right: 5px;
+}
+
+#pagenummber{
+    width: 550px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #A2B964;
+}
+#generaloverview{
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+}
+#generaloverviewbody{
+    margin-top: 0px;
+    background-color: #A2B964;
+    padding: 10pt;
+    font-size: 8pt;
+    font-family: SansSerif;
+}
+
+#generaloverviewimage{
+    height:auto;
+}
+dt{
+    font-weight: bold;
+    margin-top: 10pt;
+}
+dd{
+
+}
+#filmoverviewheading{
+    height: auto;
+    background-image: url("../images/rbg.png");
+    background-repeat: repeat-x;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    margin: auto;
+    display: flex;
+    vertical-align: center;
+}
+div>a{
+    display: flex;
+    margin: auto;
+}
