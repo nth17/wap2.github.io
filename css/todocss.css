@@ -53,7 +53,7 @@ tr{
 }
 #footer {
     position: absolute;
-    width: auto;
+    width: 1875px;
     display: flex;
     justify-content: center;
     background-color: #A2B964;

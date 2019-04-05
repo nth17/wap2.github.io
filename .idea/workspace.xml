@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fd86bbe-91b5-4277-a035-10366e08dec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TaskList.html" beforeDir="false" afterPath="$PROJECT_DIR$/TaskList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/todocss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/todocss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skeleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/todocss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="162">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -201,12 +198,12 @@
       <workItem from="1554259699780" duration="13075000" />
       <workItem from="1554355249902" duration="6267000" />
       <workItem from="1554405703374" duration="22705000" />
-      <workItem from="1554440394776" duration="8816000" />
+      <workItem from="1554440394776" duration="8926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50863000" />
+    <option name="totallyTimeSpent" value="50973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="982" extended-state="6" />
@@ -298,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/movie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skeleton.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -319,10 +309,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/movie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/todocss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="162">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
