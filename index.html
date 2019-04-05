@@ -19,8 +19,20 @@
 <body>
     <br>
     <div class="divv">
-    <img src="images/profile.jpg" alt = "profileimg" height="100" width="100"/>
-    <p><B>Nahom Hagos</B></p>
+    <img  id= "profilepic" src="images/profile.jpg" alt = "profileimg" height="100" width="100"/>
+        <script>
+            function changek(){
+                if (document.getElementById("profilepic").src === "http://localhost:63342/wap2.github.io/images/profile.jpg"){
+                    document.getElementById("profilepic").src = "images/pie.jpg";
+                }
+                else{
+                    document.getElementById("profilepic").src = "images/profile.jpg";
+                }
+            }
+        </script>
+        <button onclick="changek()">click me</button>
+
+        <p><B>Nahom Hagos</B></p>
     <ul>
         <li>
             <a href="index.html">Assignment 1</a>

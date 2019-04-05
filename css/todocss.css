@@ -10,15 +10,15 @@ body{
     justify-content: center;
     align-content: center;
     margin: auto;
-    width: 1170px;
+    width: auto;
     padding: 10px;
 }
 #body{
     padding: 90px;
-    display: flex;
-    flex-wrap: wrap;
+    float: none;
+    display: block;
     margin: auto;
-    width: 1000px;
+    width: auto;
     position: relative;
     border-width: 1px;
     border-style: solid;
@@ -34,31 +34,34 @@ h1{
     text-shadow: 3px 3px #999999;
 }
 #formdiv{
-    float: top;
-    width: 1000px;
-    margin: auto;
+    width: auto;
 }
 #tablediv{
-    padding: 30px;
-    margin: 30px;
     width: auto;
-    float: bottom;
 }
 td{
-    margin: 50px;
+    margin: 1000px;
     border-style: solid;
     padding: 10px;
     border-width: 1px;
 }
+thead{
+    background-color: darkcyan;
+}
+tr{
+    width: auto;
+}
 #footer {
     position: absolute;
-    bottom: 0;
-    width: 1500px;
+    width: auto;
     display: flex;
     justify-content: center;
-    height: 50px;
     background-color: #A2B964;
     font-weight: bold;
     font-size: 15pt;
-    left: 0;
+    align-content: center;
+    margin: auto;
+    padding: 10px;
 }
+
+
