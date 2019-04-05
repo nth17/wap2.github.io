@@ -61,6 +61,7 @@ p.comments
     font-weight: bold;
 }
 #bottom{
+    background-color: #A2B964;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -86,6 +87,7 @@ p{
     padding: 0px;
     margin: 0px;
     width: 250px;
+    background-color: #A2B964;
 }
 #generaloverviewbody{
     margin-top: 0px;
