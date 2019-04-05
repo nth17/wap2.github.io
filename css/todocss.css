@@ -1,0 +1,53 @@
+h1{
+    margin: auto;
+}
+body{
+    background-color: #E8DC9B;
+}
+#header{
+    background-color: #A2B964;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    width: 1170px;
+    padding: 10px;
+}
+#body{
+    padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    background-color: gray;
+    border-radius: 3px;
+    overflow: hidden;
+}
+h1{
+    float: top;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+}
+#formdiv{
+    float: top;
+    width: 1000px;
+    padding: auto;
+    margin: auto;
+}
+#tablediv{
+    padding: 30px;
+    margin: 30px;
+    width: auto;
+    float: bottom;
+}
+td{
+    margin: 50px;
+    border-style: solid;
+    padding: 10px;
+    border-width: 1px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  href="css/todocss.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Nahom Hagos</h1>
+    <div id="header">
+        <span> Task List</span>
+    </div>
+    <div id="body">
+        <div id="formdiv">
+            <label for="task">
+                Task
+            </label>
+            <br>
+            <br>
+            <input id="task" type="text" placeholder="task">
+            <br>
+            <br>
+            <label for="date">
+                Required By
+            </label>
+            <br>
+            <br>
+            <input id="date" type="date" placeholder="dd/mm/yyyy">
+            <br>
+            <br>
+            <label for="type">
+                Catagory
+            </label>
+            <br>
+            <br>
+            <select id="type">
+                <option>Personal</option>
+                <option>Work</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit" value="submit">
+                Save Task
+            </button>
+            <button type="reset" value="reset">
+                Clear Task
+            </button>
+        </div>
+        <div id="tablediv">
+            <table>
+                <thead>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            Due
+                        </td>
+                        <td>
+                            Catagory
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Return Library Books
+                        </td>
+                        <td>
+                            2013-10-14
+                        </td>
+                        <td>
+                            Personal
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Perform Project Demo To StakeHolders
+                        </td>
+                        <td>
+                            2013-10-14
+                        </td>
+                        <td>
+                            Work
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Meet Friends For Dinner
+                        </td>
+                        <td>
+                            2013-10-14
+                        </td>
+                        <td>
+                            Personal
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="AddTask">
+                Add Task
+            </button>
+        </div>
+    </div>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src=http://jigsaw.w3.org/css-validator/images/vcss alt="ValidCSS!"/>
+        </a>
+        <a href="https://validator.w3.org/check/referer">
+            <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png alt="Validate" />
+        </a>
+    </p>
+</body>
+</html>
