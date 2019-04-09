@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id = "clock"></h1>
+    <script>
+        var date = new Date();
+        var hour = date.getHours();
+        var Minute = date.getMinutes();
+        var Seconds = date.getSeconds();
+        var time = "" + hour + Minute + Seconds;
+        document.getElementById("clock").innerText = time;
+        function digitalclock() {
+                date = new Date();
+                hour = date.getHours();
+                Minute = date.getMinutes();
+                Seconds = date.getSeconds();
+                time = "" + hour + ":" + Minute + ":" + Seconds;
+                document.getElementById("clock").innerText = time;
+                setTimeout(digitalclock, 1000);
+        }
+        setTimeout(digitalclock, 2000);
+    </script>
+    <form
+</body>
+</html>
