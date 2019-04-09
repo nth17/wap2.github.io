@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fd86bbe-91b5-4277-a035-10366e08dec5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ascii.html" beforeDir="false" afterPath="$PROJECT_DIR$/ascii.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/ascii.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="138">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ascii.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -150,10 +150,10 @@
         <option value="$PROJECT_DIR$/css/todocss.css" />
         <option value="$PROJECT_DIR$/JSAssignment.js" />
         <option value="$PROJECT_DIR$/clock.html" />
-        <option value="$PROJECT_DIR$/css/ascii.css" />
         <option value="$PROJECT_DIR$/ascii.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/ascii.html" />
+        <option value="$PROJECT_DIR$/css/ascii.css" />
       </list>
     </option>
   </component>
@@ -246,12 +246,12 @@
       <workItem from="1554562855558" duration="4858000" />
       <workItem from="1554663854397" duration="1153000" />
       <workItem from="1554676653719" duration="2042000" />
-      <workItem from="1554785922578" duration="14645000" />
+      <workItem from="1554785922578" duration="14836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79050000" />
+    <option name="totallyTimeSpent" value="79241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="982" extended-state="4" />
@@ -410,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/ascii.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ascii.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -441,6 +434,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ascii.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
