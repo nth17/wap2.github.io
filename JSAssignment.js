@@ -39,11 +39,12 @@ function multiply(arr){
 }
 
 function reverse(str){
-    str = str.toString().split('').reverse();
-
-    return str.toString();
+    return str.split("").reverse().join("");
 }
 
+function filterLongWords(array, i){
+    return array.filter(a=>a.length>i);
+}
 
 function findLongestWord(strs){
     let maxlength = strs[0].length;
@@ -53,20 +54,20 @@ function findLongestWord(strs){
     }
     return maxlength;
 }
-var timer = null;
 
-window.onload = function(){
-    if(timer == null){
-        timer = setinterval(function () {
-            document.getElementById("Output").innerHTML += "Rudy";
-        }, 1000);
-    }
-    else {
-        clearInterval(timer);
-        timer = null;
-    }
+function mapp(array){
+    return array.map(x=>x*10);
 }
+console.log(mapp([1,2,3]));
 
+function filtering(array){
+    return array.filter(x=>x===3);
+}
+console.log(filtering([1,2,3,3]));
+
+function reduce(array){
+    return array.reduce((a,b)=>a*b,1);
+}
 
 
 
